@@ -816,26 +816,26 @@ function StepperPage() {
                 >
                   Back
                 </Button>
-                <Link href="/project">
-                  <Button
-                    sx={{
-                      width: {
-                        xs: "100%",
-                        sm: "100%",
-                        md: "50%",
-                        lg: "50%",
-                      },
-                      padding: "13px 24px",
-                      mt: 5,
-                      color: "#101313",
-                      bgcolor: "#2B8CE5",
-                      borderRadius: "10px",
-                      border: "1px solid rgba(255, 255, 255, 0.1)",
-                    }}
-                  >
-                    Create Project
-                  </Button>
-                </Link>
+                <Button
+                  component={Link}
+                  href="/project"
+                  sx={{
+                    width: {
+                      xs: "100%",
+                      sm: "100%",
+                      md: "50%",
+                      lg: "50%",
+                    },
+                    padding: "13px 24px",
+                    mt: 5,
+                    color: "#101313",
+                    bgcolor: "#2B8CE5",
+                    borderRadius: "10px",
+                    border: "1px solid rgba(255, 255, 255, 0.1)",
+                  }}
+                >
+                  Create Project
+                </Button>
               </Box>
             </Box>
           )}
